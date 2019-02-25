@@ -1,0 +1,19 @@
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-detail {
+    width: 35%;
+}
+
+.contact-detail span {
+    display: block;
+    padding: 1rem 2rem;
+}
+
+.contact-detail-header {
+    background-color: black;
+    color: white;
+}
