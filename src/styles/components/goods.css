@@ -23,3 +23,13 @@
     background-color: black;
     color: white;
 }
+
+@media only screen and (max-width: 1024px) {
+    .goods {
+        width: 47%;
+    }
+
+    .goods:nth-child(n+3) {
+        display: none;
+    }
+}
