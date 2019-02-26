@@ -10,7 +10,7 @@
 
 .nav-list .nav-list-item {
     padding: 0.75rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 .nav-list .nav-list-item:first-child {
@@ -27,11 +27,11 @@
         justify-content: center;
     }
 
-    .nav-list .nav-list-item:first-child {
-        display: inline;
+    .nav-list .nav-list-item {
+        display: none;
     }
 
-    .nav-list .nav-list-item:nth-child(n+2) {
-        display: none;
+    .nav-list .nav-list-item:first-child {
+        display: inline;
     }
 }
