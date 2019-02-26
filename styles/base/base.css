@@ -2,3 +2,8 @@ html {
     font-family: Helvetica, sans-serif;
     font-size: 18px;
 }
+
+h1,
+h4 {
+    font-weight: bold;
+}
