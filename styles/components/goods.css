@@ -16,7 +16,7 @@
     width: 50%;
 }
 
-.goods span {
+.goods .goods-description {
     display: block;
     padding: 0.5rem;
     text-align: center;
@@ -30,6 +30,16 @@
     }
 
     .goods:nth-child(n+3) {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .goods {
+        width: 90%;
+    }
+
+    .goods:nth-child(n+2) {
         display: none;
     }
 }
