@@ -10,10 +10,9 @@
 .banner .banner-card {
     position: relative;
     top: 9rem;
-    left: 15%; /* TODO: look into this number */
-    padding: 2rem 3rem;
     width: 20rem;
     height: auto;
+    padding: 2rem 3rem;
     text-transform: uppercase;
     background-color: black;
     color: white;
