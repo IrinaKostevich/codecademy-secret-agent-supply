@@ -1,3 +1,5 @@
+@import './base/base.css';
+
 @import './components/banner.css';
 @import './components/contact.css';
 @import './components/footer.css';
@@ -6,9 +8,4 @@
 @import './components/nav-list.css';
 
 @import './layout/cell.css';
-@import './layout/flex-container.css';
-
-html {
-    font-family: Helvetica, sans-serif;
-    font-size: 18px;
-}
+@import './layout/collection.css';
